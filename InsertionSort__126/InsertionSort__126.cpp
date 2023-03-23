@@ -4,13 +4,26 @@ using namespace std;
 int arr[20];    // Membuat array dengan panjang data 28
 int n;          // Membuat variabel inputan n
 
-vold input()
+void input()
 {  // proceduce input
     while (true)
     {
         cout << "Masukkan jumlah data pada array : ";  // Membuat inputan jumlah element array
         cin >> n;                                      // Memanggil variabel inputan n
 
+        if (n <= 20)
+        {      // Membuat kondisi n tidak lebih dari 20
+            break;
+
+        }
+        else
+        {
+            cout << "\nArray yang anda masukkan maksimal 20 elemen"
+        }
+    }
+    cout << endl;                           // Membuat jarak per baris program
+    cout << "==================="    << endl;  // Membuat tampilan susulan data element array
+    cout << "Masukkan Element Array" << endl;
 
 
 
