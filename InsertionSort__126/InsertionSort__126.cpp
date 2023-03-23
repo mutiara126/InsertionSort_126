@@ -18,7 +18,7 @@ void input()
         }
         else
         {
-            cout << "\nArray yang anda masukkan maksimal 20 elemen"
+            cout << "\nArray yang anda masukkan maksimal 20 elemen.\n";
         }
     }
     cout << endl;                           // Membuat jarak per baris program
@@ -34,7 +34,7 @@ void input()
     }
 };
 // procedure Insertationsort
-void insertation()
+void insertationsort()
 {
     int temp;             // Membuat variabel data temporer atau penyimpanan sementara
     int j;                // Membuat variabel j sebagai penanda
@@ -70,19 +70,22 @@ void display()
 {
     cout << endl;                                               // Output baris kosong
     cout << "Total Element Movement = " << endl;                // Cout movement element
-    cout << "\========================" <<
-        cout << " Element Array yang telah tersusun" << endl;        // output ke layar
+    cout << "========================" << endl;
+    cout << " Element Array yang telah tersusun" << endl;        // output ke layar
     cout << "=========================" << endl;                 // Output ke layar
 
     for (int j = 0; j < n; j++)    // Looping dengan j dimulai dari 0 hingga n-1
     {
         cout << arr[j] << endl;   // Output ke layar
+
     }
     cout << endl;                 // Output baris kosong
 }
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();             // Memanggil input
+    insertationsort();     // Memanggil insertionsort
+    display();            // Memanggil display
 }
-
-// 
