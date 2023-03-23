@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[20];    // Membuat array dengan panjang data 28
-int n;          // Menbuat variabel inputan n
+int n;          // Membuat variabel inputan n
 
 
 
