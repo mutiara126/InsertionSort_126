@@ -4,6 +4,13 @@ using namespace std;
 int arr[20];    // Membuat array dengan panjang data 28
 int n;          // Membuat variabel inputan n
 
+vold input()
+{  // proceduce input
+    while (true)
+    {
+        cout << "Masukkan jumlah data pada array : ";  // Membuat inputan jumlah element array
+        cin >> n;                                      // Memanggil variabel inputan n
+
 
 
 
